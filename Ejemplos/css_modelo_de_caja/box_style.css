@@ -1,0 +1,22 @@
+h1,p,div { background-color: #dde0e3;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;            
+}
+em,strong,span { background-color: #b2d6ff;}
+
+h1{
+    padding: 50px;
+    margin: 50px;
+    border: 5px solid black;
+}
+
+p{
+    padding: 10px 5px 15px 3px;
+    margin: 50px;
+    border: 5px solid green;
+}
+
+div{
+    padding: 10px 5px 15px 3px;
+    margin: 50px;
+    border: 5px solid grey;
+}

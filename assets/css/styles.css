@@ -1,0 +1,325 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+
+/*Cabecera de página*/
+
+.cabecera{
+    background-color: rgba(238, 141, 189, 0.76); 
+    padding: 5px 15px 5px 0px;
+    margin:0px 0px 10px 0px;
+    width: 100%;
+    height: 85px;
+    display: flex;
+    border-bottom: 1px solid rgba(19, 18, 18, 0.801);
+    position: fixed;
+    border-radius: 20px;
+}
+.cabecera h2{
+    display:inline-block;
+    line-height: 20px;
+    padding: 25px 0px 0px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    .menu{
+        display: inline-block;
+        float: none;
+        margin-left: 200px;
+    }
+    .menu ul li{
+        display:inline-block;
+        margin-right: 20px;
+        line-height: 30px;        
+        font-size:19px;
+        padding: 25px 0px 0px 12px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .menu a {
+        margin-right: 30px;
+        color: rgb(15, 14, 14);
+    }
+    .menu a:hover{
+        color: brown;
+        text-decoration: underline;
+    }
+
+
+
+/*Cuerpo de página */
+.cuerpo{
+    background-color: white;
+    margin: 0px 25px 5px 25px;
+    padding: 10px 15px 10px 15px;
+    border: none;
+}
+
+
+    /*Sección bienvenida*/
+    .bienvenida{
+        display: flex;
+        margin: 100px 180px 30px 180px;
+        border-bottom: 0.5px solid rgb(182, 182, 182)    
+    }
+
+    .h2 {
+        text-align: center;
+    }
+    .bienvenida div{
+        flex: 1;
+    }
+        .texto_bienvenida{
+            border: none;
+            width: 80%;
+            height: 200px;
+            padding: 20px 0px 0px 25px;
+        }
+        .imagen_bienvenida{
+            border-radius: 40px;
+            width: 50%;
+            height: 200px;
+            padding: 5px 0px 0px 0px;
+        }
+        .imagen_bienvenida img{
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+        }
+
+
+    /*Sección Sobre Mi*/
+    .sobremi{
+        display: flex;
+        margin: 70px 280px 150px 280px;
+    }
+    .sobremi div{
+        flex: 1;
+    }
+        .imagen_sobremi{
+            width: 30%;
+            height: 180px;
+            padding: 5px 5px 5px 5px;
+            text-align: center;
+        }
+        .imagen_sobremi img{
+            object-fit:fill;
+            width: 80%;
+            height: 100%;
+            border-radius: 30px ;
+        }
+        .texto_sobremi{
+            width: 85%;
+            height: 180px;
+            padding: 5px 5px 5px 5px;
+        }        
+      
+
+
+        .button 
+         {
+                color: #694de4;
+                font-size: 13px;
+                font-weight: none;
+                padding: 10px;
+                text-align: center;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                width:"50";
+                height:"50";
+                font-size: 35px;
+                margin-right: 500px;
+                margin-left: 500px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 200px;
+                }
+
+    
+
+    /*Sección mitrabajo*/
+    .mitrabajo{
+       display:contents;
+       margin: 70px 280px 150px 280px;
+       border: none;
+    }
+    .mitrabajo div{
+        flex:auto ;
+        border: none;
+        text-align:center;
+    }
+        .texto_mitrabajo{
+            border: none;
+            width: 85%;
+            height: 180px;
+            padding: 5px 5px 5px 5px;
+            justify-content: center;
+            text-align: center;
+        }        
+        .imagen_mitrabajo{
+            border:none;
+            width: 100%;
+            height: 450px;
+            padding: 5px 5px 5px 5px;
+            border-radius: 30px ;
+        }
+        .imagen_mitrabajo img{
+            object-fit:fill;
+            width: 70%;
+            height: 100%;
+            border-radius: 30px ;
+        }
+      
+
+     /*Sección conocemas*/
+    .logo_conocemas{
+        margin: 5px 5px 15px 5px;
+         text-align: center;
+         border-radius: 50%;
+         object-fit:fill;
+         width: 100%;
+         height: 100%;
+         border-radius: 30px ;
+    }
+
+    .conoce1{
+        background-color:none;
+        float: left;
+        width: 48%;
+        height: 320px;
+        margin: 5px 5px 15px 5px;
+        padding: 10px 10px 10px 10px;
+        /* position: relative; */
+    }
+        .conoce1_img{
+            width: 50%;
+            height: 100%;
+            float: left;
+            padding: 5px 5px 5px 5px;
+        }
+        .conoce1_img img{
+            /* object-fit:fill; */
+            width: 100%;
+            height: 100%;
+            border-radius: 30px ;
+        }
+        .conoce1_txt{
+            width: 50%;
+            height: 100%;
+            float: right;
+            padding: 5px 5px 5px 5px;
+        }
+
+    .conoce2{
+        background-color: none;
+        float: right; 
+        width: 48%;
+        height: 320px;
+        margin: 5px 5px 15px 5px;
+        padding: 10px 10px 10px 10px;
+        /* position: relative; */
+    }
+        .conoce2_img{
+            width: 50%;
+            height: 100%;
+            float: left;
+            padding: 5px 5px 5px 5px;
+        }
+        .conoce2_img img{
+            /* object-fit:fill; */
+            width: 100%;
+            height: 100%;
+            border-radius: 30px ;
+        }
+        .conoce2_txt{
+            width: 50%;
+            height: 100%;
+            float: right;
+            padding: 5px 5px 5px 5px;
+        }
+
+         /* seccion carrusel */
+         .section-carrusel {
+          text-align: center;
+          image-orientation: unset;
+         }
+
+          /* seccion carrusel */
+          .seccion-carrusel {
+
+            text-align: center;
+            image-orientation: unset; 
+
+          }
+
+
+
+        /* seccion trabajorealizado */
+        .trabajorealizado {
+          text-align: center;
+        }
+      
+       
+
+
+        /* pie de pagina */
+         #contactame {
+            
+            float: right;
+            padding: 6px;
+            text-decoration-style:solid;
+            border-radius: 30px; 
+          
+            display: flex;
+             
+        }
+       
+     /* -------------formulario ------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    color: #5d6063;
+    background-color: #eaedf0;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+  }
+  
+  /* ------------- Encabezado Contacto ------------- */
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-header {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    margin: 10px auto;
+    padding: 50px;
+  }
+
+
+/*Estilos generales*/
+.texto_1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(17, 16, 16);
+    text-align: center;
+}
+
+.texto_2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(209, 13, 134);
+    text-align: center;
+}
